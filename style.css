@@ -1,0 +1,12 @@
+.container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:810px
+}
+
+.container div {
+    border: 1px green solid;
+    width:200px;
+    height:200px;
+}
