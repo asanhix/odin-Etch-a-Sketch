@@ -2,11 +2,19 @@
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width:810px
+    width:800px
 }
 
 .container div {
-    border: 1px green solid;
-    width:200px;
-    height:200px;
+    width:20px;
+    height:20px;
+    background: yellow;
+}
+
+.container .black-box {
+    background: hsl(0, 0%, 0%);
+}
+
+.container .pixaleted {
+    background: hsla(0, 0%, 0%, 0.608);
 }
